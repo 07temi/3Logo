@@ -12,7 +12,6 @@
 		7D73896627D4C74C00993B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D73896527D4C74C00993B41 /* Assets.xcassets */; };
 		7D73896927D4C74C00993B41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D73896827D4C74C00993B41 /* Preview Assets.xcassets */; };
 		7D73897027D4C87200993B41 /* MyLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73896F27D4C87200993B41 /* MyLogo.swift */; };
-		7D73897227D4EFB800993B41 /* BackUPLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73897127D4EFB800993B41 /* BackUPLogo.swift */; };
 		7D73897427D5433400993B41 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73897327D5433400993B41 /* MainView.swift */; };
 		7D73897627D5434900993B41 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73897527D5434900993B41 /* AwardsView.swift */; };
 		7D73897827D5439500993B41 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D73897727D5439400993B41 /* GradientRectangles.swift */; };
@@ -27,7 +26,6 @@
 		7D73896527D4C74C00993B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D73896827D4C74C00993B41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D73896F27D4C87200993B41 /* MyLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogo.swift; sourceTree = "<group>"; };
-		7D73897127D4EFB800993B41 /* BackUPLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackUPLogo.swift; sourceTree = "<group>"; };
 		7D73897327D5433400993B41 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7D73897527D5434900993B41 /* AwardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		7D73897727D5439400993B41 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				7D73897927D543B000993B41 /* PathView.swift */,
 				7D73897B27D543BF00993B41 /* CurvesView.swift */,
 				7D73896F27D4C87200993B41 /* MyLogo.swift */,
-				7D73897127D4EFB800993B41 /* BackUPLogo.swift */,
 				7D73896527D4C74C00993B41 /* Assets.xcassets */,
 				7D73896727D4C74C00993B41 /* Preview Content */,
 			);
@@ -163,7 +160,6 @@
 				7D73896227D4C74B00993B41 /* StartLogoApp.swift in Sources */,
 				7D73897827D5439500993B41 /* GradientRectangles.swift in Sources */,
 				7D73897627D5434900993B41 /* AwardsView.swift in Sources */,
-				7D73897227D4EFB800993B41 /* BackUPLogo.swift in Sources */,
 				7D73897C27D543BF00993B41 /* CurvesView.swift in Sources */,
 				7D73897427D5433400993B41 /* MainView.swift in Sources */,
 				7D73897027D4C87200993B41 /* MyLogo.swift in Sources */,

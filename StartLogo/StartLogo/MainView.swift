@@ -12,46 +12,49 @@ struct MainView: View {
     
     var body: some View {
         VStack {
-            Button(action: duttonAction) {
+            Button(action: { showAward.toggle() }) {
                 HStack {
                     Text(showAward ? "Hide Award" : "Show Award")
                     Spacer()
                     Image(systemName: "chevron.up.square")
                         .scaleEffect(showAward ? 2 : 1)
                         .rotationEffect(.degrees(showAward ? 0 : 180))
-//                        .animation(.default)
+                        //.animation(.easeIn(duration: 2.0))
                 }
             }
-            
             Spacer()
-            if showAward {
-                GradientRectangles()
-                    .frame(width: 250, height: 250)
-                    .transition(.transition)
-            }
+            MyLogo(size: 200)
+                .rotationEffect(.degrees(showAward ? -15 : 15))
+                .animation(.spring().repeatCount(10, autoreverses: true))
+            //if showAward {
+                //GradientRectangles()
+                 //   .frame(width: 250, height: 250)
+                    //.transition(.transition)
+           // }
 
-            Spacer()
-        }
-        .font(.headline)
-        .padding()
-    }
+           // Spacer()
+//        }
+//        .font(.headline)
+//        .padding()
+//    }
     
-    private func duttonAction() {
-        withAnimation {
-            showAward.toggle()
-        }
+//    private func buttonAction() {
+//        withAnimation {
+//            showAward.toggle()
+//        }
     }
+}
 }
 
-extension AnyTransition {
-    static var transition: AnyTransition {
-        let insertion = AnyTransition.move(edge: .leading)
-        let removal = AnyTransition.scale
-            .combined(with: .opacity)
-        
-        return .asymmetric(insertion: insertion, removal: removal)
-    }
-}
+//extension AnyTransition {
+//    static var transition: AnyTransition {
+//        let insertion = AnyTransition.move(edge: .leading)
+//        let removal = AnyTransition.scale
+//            .combined(with: .opacity)
+//
+//        return .asymmetric(insertion: insertion, removal: removal)
+//    }
+//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
