@@ -10,7 +10,7 @@ import SwiftUI
 struct MyLogo: View {
     var body: some View {
         GeometryReader { geometry in
-//да тут немного наворотил, зато сохраняются пропорции при любом размере фрейма (почти)))
+//да тут немного наворотил, зато сохраняется структура при любом размере фрейма (почти)))
             let width = geometry.size.width
             let height = geometry.size.height
             //черный контур
